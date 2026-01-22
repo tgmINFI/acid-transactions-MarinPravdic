@@ -12,7 +12,7 @@ QGroupBox {
     border: 2px solid #555;
     border-radius: 5px;
     margin-top: 20px;
-    color: #f7931e; /* Safety Orange */
+    color: #008000; /* Safety Orange */
     font-weight: bold;
 }
 
@@ -23,7 +23,7 @@ QGroupBox::title {
 }
 
 QPushButton {
-    background-color: #f7931e;
+    background-color: #008000;
     color: #000;
     border-radius: 4px;
     padding: 8px;
@@ -31,18 +31,18 @@ QPushButton {
 }
 
 QPushButton:hover {
-    background-color: #ffaa33;
+    background-color: ##008000;
 }
 
 QPushButton:pressed {
-    background-color: #c67618;
+    background-color: ##008000;
 }
 
 QTableWidget {
     background-color: #333;
     color: #ddd;
     gridline-color: #555;
-    selection-background-color: #f7931e;
+    selection-background-color: #008000;
     selection-color: #000;
 }
 
